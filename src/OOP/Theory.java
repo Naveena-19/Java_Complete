@@ -6,6 +6,7 @@ public class Theory
     {
         System.out.println("class is blue print of objects\n" +
                 "objects are created by JVM\n" +
-                "objects have properties and behaviovrs\n");
+                "objects have properties and behaviovrs\n" +
+                "the word new is used to create the object\n");
     }
 }

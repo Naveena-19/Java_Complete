@@ -32,8 +32,20 @@ class Human
 //    }
 
     public void setAge(int age)
+
     {
-        this.age=age; //this used to refere the current object
+        this.age=age; //this used to refer the current object
     }
+    public Human()//defaulit constructor
+    {
+        age=18;
+        name="naveena";
+    }
+    public Human(int age) //parameterized constructors
+    {
+        this.age=age;
+    }
+//    constructor is a method which is used for instatiating objects
+//     and assigning values and doesnot have any reurn type
 
 }

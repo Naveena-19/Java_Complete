@@ -15,5 +15,13 @@ public class Theory
                 " but the original object and instance variables [=-are stored in heap\n" +
                 "the reference variable have the address or link of the object stored in stack\n" +
                 "");
+
+//        Naming Convention
+//        class and interface- Calc,Runnable
+//        variable and method -marks,show()
+//        constants-PIE
+//        prefer camelCasing than snake_casing
+
+
     }
 }
